@@ -1,7 +1,7 @@
 # Install and setup Charles Web Proxy for Android
 
 Pre-requisites:
-- Charles Proxy should be already installed on your computer.
+- Charles Proxy should be already [installed on your computer](https://gist.github.com/valeriybercha/af6c5043a3aef46ae17c589653c64344).
 
 Steps to perform:
 1. Open Charles Proxy on the computer.
