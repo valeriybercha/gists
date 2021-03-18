@@ -1,4 +1,4 @@
-# Windows 10: disabling trackers and removing default applications
+# Windows 10 setup: disabling trackers and removing default applications
 
 1. Checking Windows for latest updates (Settings - Updates & Security - Check for updates). If there are updates available, install them.
 2. Select 'Delivery Optimization' tab (left side) and make sure to switch off the 'Allow download from other PC's' parameter.
@@ -11,7 +11,7 @@
 9. Unzip the downloaded archive on the Desktop.
 10. Open Powershell as Administrator and navigate to home directory ```cd ~```.
 11. Navigate to Desktop directory ```cd Desktop```.
-12. Type the command ```Set-Executionpolicy unrestricted```.
+12. Type the command ```Set-ExecutionPolicy unrestricted```.
 13. Navigate to Windows10Debloater-master ```cd Windows10Debloater-master``` and run ```Windows10Debloater.ps1``` script.
 14. Click 'Yes' on the most of the pop-up windows, except for the last one - 'Reboot'. Click 'No' when asking to reboot.
 15. Navigate to Settings - Privacy - General. Switch all options to 'Off'.
@@ -24,7 +24,7 @@
 2. Во вкладке "Оптимизация доставки" (находится слева) меняем параметр "Разрешить загрузки с других компьютеров" на "Откл.".
 3. На клавиатуре нажимаем 'Windows + R' и в диалоговом окне вводим 'services.msc'.
 4. Ищем строку "Connected User Experiences and Telemetry («Функциональные возможности для подключенных пользователей и телеметрия»". Меняем занчение "Тип запуска" на "Отключена". "Состояние" меняем на "Остановть". Нажимаем "Применить" и "ОК".
-5. Ищем строку "Центр Обновления Windows" и меняем все значения как в п.2.
+5. Ищем строку "Центр Обновления Windows" и меняем все значения как в п.4.
 6. Скачиваем и устанавливаем программу Windows Update Blocker - [https://www.sordum.org/9470/windows-update-blocker-v1-6/](https://www.sordum.org/9470/windows-update-blocker-v1-6/)
 7. Запускаем Windows Update BLocker от имени администратора. Выбираем опцию "Disable Updates", ставим галочку на опцию "Protect Services Settings" и нажимаем "Apply Now". Закрываем программу.
 8. Скачиваем репозиторий "Windows10Debloater" (Code - Download ZIP) с Github по ссылке - [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
@@ -33,7 +33,7 @@
 11. Переходим в директорию рабочего стола ```cd Desktop```.
 12. Вводим команду ```Set-ExecutionPolicy unrestricted``` и ```y``` (да) для подтверждения.
 13. Переходим в папку Windows10Debloater-master ```cd Windows10Debloater-master```s и запускаем скрипт ```Windows10Debloater.ps1```. 
-14. На большинстве всплывающих окнах нажимаем "Да"/"Yes", кроме последнего "Reboot". На "Reboot" нажимаем "No".
+14. На большинстве всплывающих окнах нажимаем "Да"/"Yes", кроме последнего окна "Reboot". На "Reboot" (перезагрузка) нажимаем "No".
 15. Переходим в "Параметры - Конфиденциальность - Общие". Отключаем все опции.
 16. Повторяем те же действия для разделов: "Голосовые функции", "Персонализация рукописного ввода с клавиатуры", "Диагностика и отзывы", "Журнал действий", "Расположение", "Фоновые приложения", "Диагностика приложений".
 17. Перезагружаем компьютер.
