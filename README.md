@@ -4,7 +4,7 @@ All Gists - [https://gist.github.com/valeriybercha](https://gist.github.com/vale
 
 ---
 
-### Sotware QA Testing
+### Software QA Testing
 
 * [Install Charles Proxy for Windows](https://github.com/valeriybercha/gists/blob/master/software-qa/charles-proxy-desktop.md)
 * [Install Charles Proxy for Android](https://github.com/valeriybercha/gists/blob/master/software-qa/charles-proxy-android.md)
@@ -18,7 +18,7 @@ All Gists - [https://gist.github.com/valeriybercha](https://gist.github.com/vale
 * [Apps to install on Debian Linux operating system](https://github.com/valeriybercha/gists/blob/master/command-shell/installed-apps-debian.md)
 * [Python virtual environment setup on Linux](https://github.com/valeriybercha/gists/blob/master/python-virtual-env-linux.md)
 * [Retropie install and configuration](https://github.com/valeriybercha/gists/blob/master/retropie_install.md)
-
+* [Install Flask on Ubuntu Linux system](https://github.com/valeriybercha/gists/blob/master/install-flask-on-ubuntu-linux.md)
 ### Windows
 
 * [Windows 10 configuration](https://github.com/valeriybercha/gists/blob/master/windows-10-configuration.md)
