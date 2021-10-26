@@ -8,7 +8,7 @@ The Python version should be displayed.
 * Create a new project directory: ```mkdir flask_app```
 * Navigate to the directory: ```cd flask_app```
 * In the project directory the virtual envionment should be created: ``` python3 -m venv venv```
-4. Activate the virtual environment with the command: ```source bin/activate```
+4. Activate the virtual environment with the command: ```source venv/bin/activate```
 5. Install Flask: ```pip install Flask```
 6. To check if Flask was installed on the sytem type the following command: ```python -m flask --version``` Flask and Python versions should be displayed
 7. Create the simpliest 'Hello World' program in Flask:
