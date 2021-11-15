@@ -1,4 +1,4 @@
-# Create and test SQLite project database with SQLAlchemy
+# Create and test Flask SQLite project database with SQLAlchemy
 
 ### Pre-requisites:
 - Flask application 'app.py' should be already created.
