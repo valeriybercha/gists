@@ -12,16 +12,27 @@ The Python version should be displayed.
 5. Install Flask: ```pip install Flask```
 6. To check if Flask was installed on the sytem type the following command: ```python -m flask --version``` Flask and Python versions should be displayed
 7. Create the simpliest 'Hello World' program in Flask:
+- Create a python file: ```touch app.py```
+- Paste the code below in the ```app.py``` file:
 ```
 from flask import Flask
 app = Flask(__name__)
 
-@ app.route('/')
+
+@app.route('/')
 def hello_world():
     return "Hello, World!"
+
+
+if __name__ == '__main__':
+	app.run(debug=True)
 ```
 8. Launching the development server:
-* Command: ```export FLASK_APP=hello.py```
-* Command: ```flask run```
+- Method 1:
+	* Command: ```export FLASK_APP=hello.py```
+	* Command: ```flask run```
+- Method 2:
+	* Command: ```export FLASK_DEBUG=1```
+	* Command: ```python app.py```
 The ```http://127.0.01:5000``` server address should be displayed. Open it in the web browser and the message "Hello, World!" sould be displayed on the screen.
 * Use ```deactivate``` command to stop the server.
